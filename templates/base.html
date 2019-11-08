@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title> {% block content %} {% endblock %} </title>
+    <link>
 </head>
 <body>
-$END$
+    <h1>INSIDE BASE</h1>
+    <ul>
+
+    </ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about-me">About Me</a></body></li>
+    </ul>
+
+    {% block content %}
+
+    {% endblock content %}
 </body>
 </html>
